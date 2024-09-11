@@ -35,15 +35,70 @@ function renderLicenseLink(license) {
   } else {
     (license === 'None');
   } return licenseLink;
+
  }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) { 
+
+  const licenseBadge = renderLicenseBadge(license);
+  const licenseLink = renderLicenseLink(license);
+
+  if (license !== 'None') {
+    return`
+    ## License
+
+    ${licenseBadge}<a href='${licenseLink}>${license}</a>
+    `;    
+  } else {
+    return '';
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+
+  const license = data.license;
+  const renderLicenseSection = renderLicenseSection(license);
+
+  return `
+  
+# ${data.title}
+
+## Description
+
+${data.description}
+
+## Table of Contents
+
+* ['Installation'] (#installation)
+* ['Usage'] (#usage)
+* ['Contributing'] (#contributing)
+* ['Tests'] (#tests)
+* ['Questions'] (#questions)
+
+## Installation
+
+${data.dependencies}
+
+## Usage
+
+${data.usage}
+
+## Contributing
+
+${data.contributing}
+
+## Tests
+
+${data.tests}
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.githubName}.
+
+${renderLicenseSection}
 
 `;
 }

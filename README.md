@@ -1,10 +1,10 @@
 
   
-# aa
+# Weather Dashboard
 
 ## Description
 
-
+Provides users a search engine for a clean view of the current weather in a given city and a 5 day forecast.
 
 ## Table of Contents
 
@@ -16,27 +16,23 @@
 
 ## Installation
 
->a
+>No installation needed, simply visit: [https://chris21789.github.io/Weather-Dashboard/](https://chris21789.github.io/Weather-Dashboard/).
 
-## Usage <a id="usage"></a>
+## Usage
 
-a
+Users will need to input the city they would like to see weather for in the search bar. This will populate the weather information as well as create a clickable button for the user to check any city they have already searched.
 
-## Contributing <a id="contributing"></a>
+## Contributing
 
-a
+Any constructive input would be a welcomed contribution.
 
-## Tests <a id="tests"></a>
+## Tests
 
->a
+>There are no tests for this project.
 
-## Questions <a id="questions"></a>
+## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at a. You can find more of my work at a.
+If you have any questions about the repo, open an issue or contact me directly at ccolon.seo@gmail.com. You can find more of my work at [https//www.github.com/Chris21789](https//www.github.com/Chris21789).
 
 
-## License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[MIT](https://opensource.org/license/MIT)
-    
 

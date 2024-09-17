@@ -96,7 +96,7 @@ ${data.contributing}
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [https//www.github.com/${data.githubName}](https//www.github.com/${data.githubName}).
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [https://www.github.com/${data.githubName}](https://www.github.com/${data.githubName}).
 
 ${renderLicense}
 
